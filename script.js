@@ -22,15 +22,15 @@ function showFields() {
     sectionImage.style.display = "none";
 
     if (sectionType === "UPN") {
-        window.location.href = "https://mohmohragrag.github.io/Elsafwa_Calculator/upn/index.html";
+        window.location.href = "https://mohmohragrag.github.io/Calculator_Elsafwaa/upn/index.html";
     } else if (sectionType === "IPN") {
-        window.location.href = "https://mohmohragrag.github.io/Elsafwa_Calculator/ipn/index.html";
+        window.location.href = "https://mohmohragrag.github.io/Calculator_Elsafwaa/ipn/index.html";
     } else if (sectionType === "IPE") {
-        window.location.href = "https://mohmohragrag.github.io/Elsafwa_Calculator/ipe/index.html";
+        window.location.href = "https://mohmohragrag.github.io/Calculator_Elsafwaa/ipe/index.html";
     } else if (sectionType === "HEA") {
-        window.location.href = "https://mohmohragrag.github.io/Elsafwa_Calculator/hea/index.html";
+        window.location.href = "https://mohmohragrag.github.io/Calculator_Elsafwaa/hea/index.html";
     } else if (sectionType === "HEB") {
-        window.location.href = "https://mohmohragrag.github.io/Elsafwa_Calculator/heb/index.html";
+        window.location.href = "https://mohmohragrag.github.io/Calculator_Elsafwaa/heb/index.html";
     } else if (sectionType && steelSections[sectionType]) {
         steelSections[sectionType].forEach(field => {
             const inputField = document.createElement("input");
